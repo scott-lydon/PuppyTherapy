@@ -1,2 +1,2 @@
-# PuppyTherapy
-Shows gifs of cute animals in a feed.
+# petTherapy
+Provides therapy by shows gifs of cute animals
