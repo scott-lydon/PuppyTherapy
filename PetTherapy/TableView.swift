@@ -34,7 +34,6 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
         tableView.tableFooterView?.isHidden = false
         if scrollView == tableView{
-            print(scrollView.contentOffset.y, scrollView.frame.size.height, scrollView.contentSize.height)
             if ((scrollView.contentOffset.y + scrollView.frame.size.height) >= scrollView.contentSize.height)
             {
                 if !isNewDataLoading{

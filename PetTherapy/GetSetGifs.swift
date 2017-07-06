@@ -16,7 +16,6 @@ extension ViewController
             { (dataArr) in
                 
                 self.gifDatas += dataArr
-                print(self.gifDatas)
                 DispatchQueue.main.async
                 {
                     

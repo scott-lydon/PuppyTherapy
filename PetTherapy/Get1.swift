@@ -31,8 +31,7 @@ extension Get {
                                 if let images = giphy["images"] as? [String: Any] {
                                     if let fixedWidth = images["fixed_width"] as? [String: String] {
                                         if let url = fixedWidth["url"] {
-                                            print(url)
-                                            if id != "yjGdFXjeQsDqJNSzE4" { //This can make the cells short by one. but giphy has this repeat.
+                                                if id != "yjGdFXjeQsDqJNSzE4" {
                                                 giphArr += [[url, id]]
                                             }
                                        }
