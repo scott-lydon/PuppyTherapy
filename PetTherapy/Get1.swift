@@ -8,7 +8,6 @@ extension Get {
  
         func firstGiphData(completion: @escaping ([[String]], String) -> Void)  {
             
-            print("made it to the first gif call")
         var isBigScreen = false
         let deviceName = UIDevice.current.deviceName()
         if deviceName == "iPhone7,1" || deviceName == "iPhone8,2" || deviceName == "iPhone9,2" || deviceName == "iPhone9,4" || UIDevice.current.model == "iPad" {

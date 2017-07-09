@@ -14,7 +14,6 @@ extension GiphyVC {
         
         self.tableView.tableFooterView = footer
         let imgView = UIImageView(image: #imageLiteral(resourceName: "arrowpng"))
-        imgView
         imgView.frame = CGRect(x: self.view.bounds.size.width / 2 - 10, y: 0, width: 20, height: 40)
         self.tableView.tableFooterView?.addSubview(imgView)
         self.tableView.tableFooterView?.addSubview(loadMoreLabel)
