@@ -2,7 +2,7 @@
 import UIKit
 import Foundation
 
-extension ViewController {
+extension GiphyVC {
     func configureActivityIndicatorInFooter() {
         activityIndicator2.removeFromSuperview()
         tableView.tableFooterView?.addSubview(activityIndicator2)

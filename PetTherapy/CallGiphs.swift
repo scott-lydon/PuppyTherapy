@@ -3,26 +3,29 @@ import UIKit
 import Foundation
 
 
-extension ViewController
+extension GiphyVC
 {
     func getSetGifs()
     {
-        Get.shared.firstGiphData(searchTerms: ["dog", "cat", "koala", "kitten", "puppy", "sloth"])
+        Get.shared.firstGiphData()
         {
-            (gifArr) in
+            (gifArr, chosenAnimal) in
             
             
             Get.shared.secondGiphData(giphARr: gifArr, completion:
             { (dataArr) in
                 
+                List.shared.animalURLs += [chosenAnimal]
                 self.gifDatas += dataArr
                 DispatchQueue.main.async
                 {
                     
                     self.activityIndicator.stopAnimating()
+                    self.view.isUserInteractionEnabled = true
                     self.activityIndicator2.stopAnimating()
                     self.tableView.reloadData()
                     self.isNewDataLoading = false
+                    print("reached main queue")
                 }
             })
         }

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		750B22021F098843009C6834 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B22011F098843009C6834 /* AppDelegate.swift */; };
-		750B22041F098843009C6834 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B22031F098843009C6834 /* ViewController.swift */; };
+		750B22041F098843009C6834 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B22031F098843009C6834 /* Properties.swift */; };
 		750B22091F098843009C6834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 750B22081F098843009C6834 /* Assets.xcassets */; };
 		750B220C1F098843009C6834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750B220A1F098843009C6834 /* LaunchScreen.storyboard */; };
 		750B22171F098BD3009C6834 /* Gif+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B22161F098BD3009C6834 /* Gif+Swift.swift */; };
@@ -16,8 +16,8 @@
 		750B221B1F098C3B009C6834 /* Get2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B221A1F098C3B009C6834 /* Get2.swift */; };
 		750B221D1F098E82009C6834 /* Giph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B221C1F098E82009C6834 /* Giph.swift */; };
 		750B221F1F0990AA009C6834 /* GifTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B221E1F0990AA009C6834 /* GifTableViewCell.swift */; };
-		750B22211F099B8C009C6834 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B22201F099B8C009C6834 /* TableView.swift */; };
-		750B22231F099BDC009C6834 /* GetSetGifs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B22221F099BDC009C6834 /* GetSetGifs.swift */; };
+		750B22211F099B8C009C6834 /* DidEndDragging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B22201F099B8C009C6834 /* DidEndDragging.swift */; };
+		750B22231F099BDC009C6834 /* CallGiphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B22221F099BDC009C6834 /* CallGiphs.swift */; };
 		750B22251F099C17009C6834 /* ConfigureActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B22241F099C17009C6834 /* ConfigureActivityIndicator.swift */; };
 		750B22271F099C3C009C6834 /* ConfigureTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B22261F099C3C009C6834 /* ConfigureTableView.swift */; };
 		751599C51F0B4DD600A7D045 /* ConfigureFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751599C41F0B4DD600A7D045 /* ConfigureFooter.swift */; };
@@ -25,12 +25,28 @@
 		751599C91F0C202E00A7D045 /* giphyLogo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 751599C81F0C202E00A7D045 /* giphyLogo.gif */; };
 		751599CB1F0C55A300A7D045 /* darkFlat.gif in Resources */ = {isa = PBXBuildFile; fileRef = 751599CA1F0C55A300A7D045 /* darkFlat.gif */; };
 		755485A31F0EF039008EFE08 /* Device extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755485A21F0EF039008EFE08 /* Device extension.swift */; };
+		755485AE1F104E83008EFE08 /* ViewDidLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755485AD1F104E83008EFE08 /* ViewDidLoad.swift */; };
+		755485B01F104EDF008EFE08 /* HeightForRowAt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755485AF1F104EDF008EFE08 /* HeightForRowAt.swift */; };
+		755485B21F104F24008EFE08 /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755485B11F104F24008EFE08 /* Footer.swift */; };
+		755485B41F104FCD008EFE08 /* NumbersOfRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755485B31F104FCD008EFE08 /* NumbersOfRows.swift */; };
+		755485B61F105006008EFE08 /* CellForRowat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755485B51F105006008EFE08 /* CellForRowat.swift */; };
+		755485B91F10508D008EFE08 /* SelectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755485B81F10508D008EFE08 /* SelectRow.swift */; };
+		755485BB1F10531B008EFE08 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755485BA1F10531B008EFE08 /* WebView.swift */; };
+		755485BE1F10CB52008EFE08 /* GetYoutubeURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755485BD1F10CB52008EFE08 /* GetYoutubeURL.swift */; };
+		755485C01F116348008EFE08 /* Array Ext..swift in Sources */ = {isa = PBXBuildFile; fileRef = 755485BF1F116348008EFE08 /* Array Ext..swift */; };
+		755485C21F11636D008EFE08 /* UIDevice ext..swift in Sources */ = {isa = PBXBuildFile; fileRef = 755485C11F11636D008EFE08 /* UIDevice ext..swift */; };
+		755485C41F1163F2008EFE08 /* animalURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755485C31F1163F2008EFE08 /* animalURLs.swift */; };
+		755485C61F1180D1008EFE08 /* viewWilldissappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755485C51F1180D1008EFE08 /* viewWilldissappear.swift */; };
+		755485C81F1181BC008EFE08 /* ViewWillAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755485C71F1181BC008EFE08 /* ViewWillAppear.swift */; };
+		755485CD1F118F3F008EFE08 /* GiphCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755485CC1F118F3F008EFE08 /* GiphCell.swift */; };
+		755485CF1F11BBCB008EFE08 /* Wagging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755485CE1F11BBCB008EFE08 /* Wagging.swift */; };
+		755485D31F11C67C008EFE08 /* ConnectivityCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755485D21F11C67C008EFE08 /* ConnectivityCheck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		750B21FE1F098843009C6834 /* PetTherapy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetTherapy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		750B22011F098843009C6834 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		750B22031F098843009C6834 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		750B22031F098843009C6834 /* Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
 		750B22081F098843009C6834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		750B220B1F098843009C6834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		750B220D1F098843009C6834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,8 +55,8 @@
 		750B221A1F098C3B009C6834 /* Get2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Get2.swift; sourceTree = "<group>"; };
 		750B221C1F098E82009C6834 /* Giph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Giph.swift; sourceTree = "<group>"; };
 		750B221E1F0990AA009C6834 /* GifTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifTableViewCell.swift; sourceTree = "<group>"; };
-		750B22201F099B8C009C6834 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
-		750B22221F099BDC009C6834 /* GetSetGifs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSetGifs.swift; sourceTree = "<group>"; };
+		750B22201F099B8C009C6834 /* DidEndDragging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidEndDragging.swift; sourceTree = "<group>"; };
+		750B22221F099BDC009C6834 /* CallGiphs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallGiphs.swift; sourceTree = "<group>"; };
 		750B22241F099C17009C6834 /* ConfigureActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureActivityIndicator.swift; sourceTree = "<group>"; };
 		750B22261F099C3C009C6834 /* ConfigureTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureTableView.swift; sourceTree = "<group>"; };
 		751599C41F0B4DD600A7D045 /* ConfigureFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfigureFooter.swift; path = ../ConfigureFooter.swift; sourceTree = "<group>"; };
@@ -49,6 +65,22 @@
 		751599CA1F0C55A300A7D045 /* darkFlat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = darkFlat.gif; sourceTree = "<group>"; };
 		751599CC1F0E4C1E00A7D045 /* Puppy_Therapy.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = Puppy_Therapy.mobileprovision; sourceTree = "<group>"; };
 		755485A21F0EF039008EFE08 /* Device extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Device extension.swift"; sourceTree = "<group>"; };
+		755485AD1F104E83008EFE08 /* ViewDidLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDidLoad.swift; sourceTree = "<group>"; };
+		755485AF1F104EDF008EFE08 /* HeightForRowAt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeightForRowAt.swift; sourceTree = "<group>"; };
+		755485B11F104F24008EFE08 /* Footer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
+		755485B31F104FCD008EFE08 /* NumbersOfRows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbersOfRows.swift; sourceTree = "<group>"; };
+		755485B51F105006008EFE08 /* CellForRowat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellForRowat.swift; sourceTree = "<group>"; };
+		755485B81F10508D008EFE08 /* SelectRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectRow.swift; sourceTree = "<group>"; };
+		755485BA1F10531B008EFE08 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		755485BD1F10CB52008EFE08 /* GetYoutubeURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetYoutubeURL.swift; sourceTree = "<group>"; };
+		755485BF1F116348008EFE08 /* Array Ext..swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array Ext..swift"; sourceTree = "<group>"; };
+		755485C11F11636D008EFE08 /* UIDevice ext..swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice ext..swift"; sourceTree = "<group>"; };
+		755485C31F1163F2008EFE08 /* animalURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animalURLs.swift; sourceTree = "<group>"; };
+		755485C51F1180D1008EFE08 /* viewWilldissappear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewWilldissappear.swift; sourceTree = "<group>"; };
+		755485C71F1181BC008EFE08 /* ViewWillAppear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewWillAppear.swift; sourceTree = "<group>"; };
+		755485CC1F118F3F008EFE08 /* GiphCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiphCell.swift; sourceTree = "<group>"; };
+		755485CE1F11BBCB008EFE08 /* Wagging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wagging.swift; sourceTree = "<group>"; };
+		755485D21F11C67C008EFE08 /* ConnectivityCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectivityCheck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +127,9 @@
 		750B22131F0988FD009C6834 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				750B22161F098BD3009C6834 /* Gif+Swift.swift */,
-				750B22181F098C20009C6834 /* Get1.swift */,
-				755485A21F0EF039008EFE08 /* Device extension.swift */,
-				750B221A1F098C3B009C6834 /* Get2.swift */,
-				750B221C1F098E82009C6834 /* Giph.swift */,
+				755485A81F104DD7008EFE08 /* utilities */,
+				755485A71F104DCD008EFE08 /* GetGiphs */,
+				755485CC1F118F3F008EFE08 /* GiphCell.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -107,9 +137,9 @@
 		750B22141F098906009C6834 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				750B221E1F0990AA009C6834 /* GifTableViewCell.swift */,
-				750B22201F099B8C009C6834 /* TableView.swift */,
-				751599C61F0B9D5B00A7D045 /* configureFooterActivityIndicator.swift */,
+				755485AA1F104DF9008EFE08 /* TableViewAppearance */,
+				755485A91F104DEF008EFE08 /* Footer */,
+				750B22241F099C17009C6834 /* ConfigureActivityIndicator.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -118,15 +148,105 @@
 			isa = PBXGroup;
 			children = (
 				750B22011F098843009C6834 /* AppDelegate.swift */,
-				750B22031F098843009C6834 /* ViewController.swift */,
-				750B22241F099C17009C6834 /* ConfigureActivityIndicator.swift */,
-				750B22261F099C3C009C6834 /* ConfigureTableView.swift */,
+				755485AC1F104E1E008EFE08 /* TableViewFeed */,
+				755485BC1F10655C008EFE08 /* WebViewVC */,
+				755485AB1F104E0B008EFE08 /* GiphLogo */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		755485A71F104DCD008EFE08 /* GetGiphs */ = {
+			isa = PBXGroup;
+			children = (
+				755485C31F1163F2008EFE08 /* animalURLs.swift */,
+				750B22181F098C20009C6834 /* Get1.swift */,
+				750B221A1F098C3B009C6834 /* Get2.swift */,
+				750B221C1F098E82009C6834 /* Giph.swift */,
+			);
+			name = GetGiphs;
+			sourceTree = "<group>";
+		};
+		755485A81F104DD7008EFE08 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				755485D21F11C67C008EFE08 /* ConnectivityCheck.swift */,
+				750B22161F098BD3009C6834 /* Gif+Swift.swift */,
+				755485A21F0EF039008EFE08 /* Device extension.swift */,
+				755485BD1F10CB52008EFE08 /* GetYoutubeURL.swift */,
+				755485BF1F116348008EFE08 /* Array Ext..swift */,
+				755485C11F11636D008EFE08 /* UIDevice ext..swift */,
+				755485CE1F11BBCB008EFE08 /* Wagging.swift */,
+			);
+			name = utilities;
+			sourceTree = "<group>";
+		};
+		755485A91F104DEF008EFE08 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				751599C61F0B9D5B00A7D045 /* configureFooterActivityIndicator.swift */,
 				751599C41F0B4DD600A7D045 /* ConfigureFooter.swift */,
-				750B22221F099BDC009C6834 /* GetSetGifs.swift */,
+			);
+			name = Footer;
+			sourceTree = "<group>";
+		};
+		755485AA1F104DF9008EFE08 /* TableViewAppearance */ = {
+			isa = PBXGroup;
+			children = (
+				750B221E1F0990AA009C6834 /* GifTableViewCell.swift */,
+				750B22261F099C3C009C6834 /* ConfigureTableView.swift */,
+			);
+			name = TableViewAppearance;
+			sourceTree = "<group>";
+		};
+		755485AB1F104E0B008EFE08 /* GiphLogo */ = {
+			isa = PBXGroup;
+			children = (
 				751599C81F0C202E00A7D045 /* giphyLogo.gif */,
 				751599CA1F0C55A300A7D045 /* darkFlat.gif */,
 			);
-			name = Controller;
+			name = GiphLogo;
+			sourceTree = "<group>";
+		};
+		755485AC1F104E1E008EFE08 /* TableViewFeed */ = {
+			isa = PBXGroup;
+			children = (
+				755485B71F105022008EFE08 /* TableView */,
+				755485CB1F118DEA008EFE08 /* ViewFuncDeclaration */,
+				750B22221F099BDC009C6834 /* CallGiphs.swift */,
+				750B22031F098843009C6834 /* Properties.swift */,
+			);
+			name = TableViewFeed;
+			sourceTree = "<group>";
+		};
+		755485B71F105022008EFE08 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				750B22201F099B8C009C6834 /* DidEndDragging.swift */,
+				755485B51F105006008EFE08 /* CellForRowat.swift */,
+				755485B31F104FCD008EFE08 /* NumbersOfRows.swift */,
+				755485B11F104F24008EFE08 /* Footer.swift */,
+				755485AF1F104EDF008EFE08 /* HeightForRowAt.swift */,
+				755485B81F10508D008EFE08 /* SelectRow.swift */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		755485BC1F10655C008EFE08 /* WebViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				755485BA1F10531B008EFE08 /* WebView.swift */,
+			);
+			name = WebViewVC;
+			sourceTree = "<group>";
+		};
+		755485CB1F118DEA008EFE08 /* ViewFuncDeclaration */ = {
+			isa = PBXGroup;
+			children = (
+				755485AD1F104E83008EFE08 /* ViewDidLoad.swift */,
+				755485C51F1180D1008EFE08 /* viewWilldissappear.swift */,
+				755485C71F1181BC008EFE08 /* ViewWillAppear.swift */,
+			);
+			name = ViewFuncDeclaration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,16 +324,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				750B221B1F098C3B009C6834 /* Get2.swift in Sources */,
+				755485C81F1181BC008EFE08 /* ViewWillAppear.swift in Sources */,
+				755485CF1F11BBCB008EFE08 /* Wagging.swift in Sources */,
 				751599C51F0B4DD600A7D045 /* ConfigureFooter.swift in Sources */,
-				750B22041F098843009C6834 /* ViewController.swift in Sources */,
+				755485B91F10508D008EFE08 /* SelectRow.swift in Sources */,
+				750B22041F098843009C6834 /* Properties.swift in Sources */,
+				755485B61F105006008EFE08 /* CellForRowat.swift in Sources */,
+				755485D31F11C67C008EFE08 /* ConnectivityCheck.swift in Sources */,
 				750B22021F098843009C6834 /* AppDelegate.swift in Sources */,
+				755485BB1F10531B008EFE08 /* WebView.swift in Sources */,
+				755485B41F104FCD008EFE08 /* NumbersOfRows.swift in Sources */,
 				750B221F1F0990AA009C6834 /* GifTableViewCell.swift in Sources */,
 				750B22191F098C20009C6834 /* Get1.swift in Sources */,
+				755485C41F1163F2008EFE08 /* animalURLs.swift in Sources */,
 				755485A31F0EF039008EFE08 /* Device extension.swift in Sources */,
 				751599C71F0B9D5B00A7D045 /* configureFooterActivityIndicator.swift in Sources */,
-				750B22231F099BDC009C6834 /* GetSetGifs.swift in Sources */,
-				750B22211F099B8C009C6834 /* TableView.swift in Sources */,
+				755485C01F116348008EFE08 /* Array Ext..swift in Sources */,
+				755485C61F1180D1008EFE08 /* viewWilldissappear.swift in Sources */,
+				755485B21F104F24008EFE08 /* Footer.swift in Sources */,
+				750B22231F099BDC009C6834 /* CallGiphs.swift in Sources */,
+				750B22211F099B8C009C6834 /* DidEndDragging.swift in Sources */,
+				755485AE1F104E83008EFE08 /* ViewDidLoad.swift in Sources */,
+				755485BE1F10CB52008EFE08 /* GetYoutubeURL.swift in Sources */,
+				755485CD1F118F3F008EFE08 /* GiphCell.swift in Sources */,
 				750B22171F098BD3009C6834 /* Gif+Swift.swift in Sources */,
+				755485C21F11636D008EFE08 /* UIDevice ext..swift in Sources */,
+				755485B01F104EDF008EFE08 /* HeightForRowAt.swift in Sources */,
 				750B22251F099C17009C6834 /* ConfigureActivityIndicator.swift in Sources */,
 				750B221D1F098E82009C6834 /* Giph.swift in Sources */,
 				750B22271F099C3C009C6834 /* ConfigureTableView.swift in Sources */,

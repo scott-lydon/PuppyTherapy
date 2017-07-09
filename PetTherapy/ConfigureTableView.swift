@@ -2,7 +2,7 @@
 import Foundation
 import UIKit
 
-extension ViewController {
+extension GiphyVC {
     func configureTableView() {
         tableView.dataSource = self
         tableView.delegate = self
@@ -10,8 +10,6 @@ extension ViewController {
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.register(GifTableViewCell.self, forCellReuseIdentifier: giphCellReuseIdentifier)
 
-        //tableView.separatorInset = UIEdgeInsetsMake(0, 0, 0, 0)
-        //tableView.separatorInset = UIEdgeInsets.zero
         view.addSubview(tableView)
         
         tableView.translatesAutoresizingMaskIntoConstraints = false
@@ -20,8 +18,8 @@ extension ViewController {
         tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
         tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         tableView.separatorStyle = UITableViewCellSeparatorStyle.none
-        //tableView.rowHeight = UITableViewAutomaticDimension
-        //tableView.contentInset = UIEdgeInsetsMake(0, 0, 0, 0)
+
+        print("tableView should be configured")
         
     }
 }

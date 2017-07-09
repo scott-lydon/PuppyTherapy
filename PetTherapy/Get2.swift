@@ -10,7 +10,7 @@ class Get {
     var callCount = 0
     
     func secondGiphData(giphARr: [[String]], completion: @escaping ([Data]) -> Void ) {
-        
+        print("made it to second gif")
         let disGroup = DispatchGroup()
         
         var exitArr = [Data]()
@@ -33,9 +33,7 @@ class Get {
                     }
                         
                     else
-                    {
-                        print(data!)
-                        
+                    {                        
                         exitArr += [data!]
                         
                         disGroup.leave()
