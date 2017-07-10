@@ -1,6 +1,5 @@
 import Foundation
 
-
 class Get {
     
     static let shared = Get()
@@ -43,7 +42,6 @@ class Get {
             }
             
         }
-        
         disGroup.notify(queue: .main) {
             
             completion(exitArr)
