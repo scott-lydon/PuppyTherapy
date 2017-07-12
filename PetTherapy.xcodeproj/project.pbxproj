@@ -20,6 +20,7 @@
 		750B22231F099BDC009C6834 /* CallGiphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B22221F099BDC009C6834 /* CallGiphs.swift */; };
 		750B22251F099C17009C6834 /* ConfigureActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B22241F099C17009C6834 /* ConfigureActivityIndicator.swift */; };
 		750B22271F099C3C009C6834 /* ConfigureTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B22261F099C3C009C6834 /* ConfigureTableView.swift */; };
+		7510E0721F16B5E000ADE97F /* ShowFavoritesOrGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7510E0711F16B5E000ADE97F /* ShowFavoritesOrGeneral.swift */; };
 		751599C51F0B4DD600A7D045 /* ConfigureFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751599C41F0B4DD600A7D045 /* ConfigureFooter.swift */; };
 		751599C71F0B9D5B00A7D045 /* configureFooterActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751599C61F0B9D5B00A7D045 /* configureFooterActivityIndicator.swift */; };
 		751599C91F0C202E00A7D045 /* giphyLogo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 751599C81F0C202E00A7D045 /* giphyLogo.gif */; };
@@ -59,6 +60,7 @@
 		750B22221F099BDC009C6834 /* CallGiphs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallGiphs.swift; sourceTree = "<group>"; };
 		750B22241F099C17009C6834 /* ConfigureActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureActivityIndicator.swift; sourceTree = "<group>"; };
 		750B22261F099C3C009C6834 /* ConfigureTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureTableView.swift; sourceTree = "<group>"; };
+		7510E0711F16B5E000ADE97F /* ShowFavoritesOrGeneral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShowFavoritesOrGeneral.swift; path = ../ShowFavoritesOrGeneral.swift; sourceTree = "<group>"; };
 		751599C41F0B4DD600A7D045 /* ConfigureFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfigureFooter.swift; path = ../ConfigureFooter.swift; sourceTree = "<group>"; };
 		751599C61F0B9D5B00A7D045 /* configureFooterActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = configureFooterActivityIndicator.swift; sourceTree = "<group>"; };
 		751599C81F0C202E00A7D045 /* giphyLogo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giphyLogo.gif; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 				755485B11F104F24008EFE08 /* Footer.swift */,
 				755485AF1F104EDF008EFE08 /* HeightForRowAt.swift */,
 				755485B81F10508D008EFE08 /* SelectRow.swift */,
+				7510E0711F16B5E000ADE97F /* ShowFavoritesOrGeneral.swift */,
 			);
 			name = TableView;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				750B22041F098843009C6834 /* Properties.swift in Sources */,
 				755485B61F105006008EFE08 /* CellForRowat.swift in Sources */,
 				755485D31F11C67C008EFE08 /* ConnectivityCheck.swift in Sources */,
+				7510E0721F16B5E000ADE97F /* ShowFavoritesOrGeneral.swift in Sources */,
 				750B22021F098843009C6834 /* AppDelegate.swift in Sources */,
 				755485BB1F10531B008EFE08 /* WebView.swift in Sources */,
 				755485B41F104FCD008EFE08 /* NumbersOfRows.swift in Sources */,

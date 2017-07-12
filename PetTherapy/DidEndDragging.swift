@@ -18,6 +18,4 @@ extension GiphyVC: UITableViewDataSource, UITableViewDelegate {
             }
         }
     }
-    
-
 }

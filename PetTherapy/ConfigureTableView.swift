@@ -13,6 +13,7 @@ extension GiphyVC {
         view.addSubview(tableView)
         
         tableView.translatesAutoresizingMaskIntoConstraints = false
+        
         tableView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true

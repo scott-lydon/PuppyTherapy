@@ -19,30 +19,10 @@ extension GiphyVC {
         self.tableView.tableFooterView?.addSubview(loadMoreLabel)
         self.tableView.tableFooterView?.isHidden = true
         
-        //let rotationPoint = CGPoint(x: self.view.bounds.size.width / 2, y: -5)
+        _ = CGPoint(x: self.view.bounds.size.width / 2, y: -5) //rotationPoint
+        
         
         
     }
 }
 
-
-/*
-
- let width = layer.frame.width
- let height = layer.frame.height
- let minX = layer.frame.minX
- let minY = layer.frame.minY
- 
- let anchorPoint = CGPoint(x: (rotationPoint.x-minX)/width,
- y: (rotationPoint.y-minY)/height)
- 
- layer.anchorPoint = anchorPoint;
- layer.position = rotationPoint;
- 
- 
- // 
- let rotationPoint = CGPoint(x: layer.frame.width / 2.0, y: layer.frame.height / 2.0) // The point we are rotating around
- 
- print(rotationPoint.debugDescription)
- 
- */

@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         bar.tintColor = UIColor.white
         bar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
         application.statusBarStyle = .lightContent
-  
+        bar.isTranslucent = false
         return true
     }
 

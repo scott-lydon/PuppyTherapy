@@ -22,6 +22,17 @@ extension GiphyVC {
         
         giphyLogoView.loadGif(name: "giphyLogo")
         
+        let mySEgmentedControl = UISegmentedControl(items: ["All Gifs", "Favorites"])
+        mySEgmentedControl.sizeToFit()
+        mySEgmentedControl.tintColor = UIColor.white
+        mySEgmentedControl.selectedSegmentIndex = 0
+        mySEgmentedControl.addTarget(self, action: #selector(showFavoritesOrGeneral), for: .valueChanged)
+        navigationItem.titleView = mySEgmentedControl
+        
+        //print(self.navigationController?.navigationBar.heightAnchor)
     }
+    
+
+
 
 }

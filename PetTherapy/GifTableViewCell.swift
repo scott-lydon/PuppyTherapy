@@ -6,6 +6,8 @@ class GifTableViewCell: UITableViewCell {
     
     let img = UIImageView()
     let btn = UIButton()
+    let favoriteBtn = UIButton()
+    
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -28,15 +30,38 @@ class GifTableViewCell: UITableViewCell {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        contentView.addSubview(btn)
+       
+        contentView.addSubview(favoriteBtn)
+        favoriteBtn.setBackgroundImage(#imageLiteral(resourceName: "WhiteHeartR"), for: .normal)
+        
         let buttonWidth = CGFloat(30)
         let buttonHeight = CGFloat(30)
         let margin = CGFloat(10)
+        
+        let btnX = contentView.bounds.width - buttonWidth - margin
+        let btnY = contentView.bounds.height - buttonHeight - margin
+        
+        let favX = contentView.bounds.width - buttonWidth - 2 * margin - buttonWidth
+        let favY = contentView.bounds.height - buttonHeight - margin
+        
+        favoriteBtn.frame = CGRect(x: favX, y: favY, width: buttonWidth, height: buttonHeight)
+
+        contentView.addSubview(btn)
+
         btn.setBackgroundImage(#imageLiteral(resourceName: "share"), for: .normal)
-        btn.frame = CGRect(x: contentView.bounds.width - buttonWidth - margin, y: contentView.bounds.height - buttonHeight - margin, width: buttonWidth, height: buttonHeight)
+        
+        btn.frame = CGRect(x: btnX, y: btnY, width: buttonWidth, height: buttonHeight)
+        
+        favoriteBtn.addTarget(self, action: #selector(favBtnPress), for: .touchUpInside)
+        
         
     }
+  
+    func favBtnPress(sender: UIButton!) {
+       
+    }
     
+   
        
 
 }
